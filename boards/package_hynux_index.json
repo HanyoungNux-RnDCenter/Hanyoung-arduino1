@@ -15,8 +15,8 @@
           "category": "Contributed",
           "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino1/blob/main/boards/ITTH_17D.zip?raw=true",
           "archiveFileName": "ITTH_17D.zip",
-          "checksum": "SHA-256:ddb74f32407b159350f14b9c1d365f3e2e13ac2067a1fe103daa7db0db3f2f8b",
-          "size": "4387887",
+          "checksum": "SHA-256:20013640ceb18b73fe747c395346f76dd013311f304472601880d8162bf0f159",
+          "size": "4346400",
           "boards": [
             {
               "name": "Hanyoung ITTH"
