@@ -16,7 +16,7 @@
 
 # Hanyoung ITTH 17D (Native USB Port)
 # --------------------------------------
-hanyoung_itth.name=Hanyoung ITTH (Native USB Port)
+hanyoung_itth.name=Hanyoung ITTH 17D (Native USB Port)
 hanyoung_itth.vid.0=0x2341
 hanyoung_itth.pid.0=0x804d
 hanyoung_itth.vid.1=0x2341
@@ -33,7 +33,7 @@ hanyoung_itth.upload_port.2.vid=0x2341
 hanyoung_itth.upload_port.2.pid=0x824d
 hanyoung_itth.upload_port.3.vid=0x2341
 hanyoung_itth.upload_port.3.pid=0x024d
-hanyoung_itth.upload_port.4.board=HanyoungITTH_17D
+hanyoung_itth.upload_port.4.board=itth17d
 
 hanyoung_itth.upload.tool=bossac
 hanyoung_itth.upload.tool.default=bossac
@@ -47,13 +47,13 @@ hanyoung_itth.upload.native_usb=true
 hanyoung_itth.build.mcu=cortex-m0plus
 hanyoung_itth.build.f_cpu=48000000L
 hanyoung_itth.build.usb_product="Hanyoung ITTH 17D"
-hanyoung_itth.build.usb_manufacturer="Hanyoung Masters"
-hanyoung_itth.build.board=HanyoungITTH_17D
+hanyoung_itth.build.usb_manufacturer="Hanyoung Nux"
+hanyoung_itth.build.board=Hanyoung_ITTH_17D
 hanyoung_itth.build.core=arduino
 hanyoung_itth.build.extra_flags=-D__SAMD21G17D__ {build.usb_flags}
 hanyoung_itth.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 hanyoung_itth.build.openocdscript=openocd_scripts/arduino_zero.cfg
-hanyoung_itth.build.variant=hanyoungitth_17d
+hanyoung_itth.build.variant=itth_17d
 hanyoung_itth.build.variant_system_lib=
 hanyoung_itth.build.vid=0x2341
 hanyoung_itth.build.pid=0x804d

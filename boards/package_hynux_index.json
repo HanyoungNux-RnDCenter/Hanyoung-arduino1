@@ -3,7 +3,7 @@
   [
     {
       "name": "hanyoung",
-      "maintainer": "Hanyoung Masters",
+      "maintainer": "Hanyoung Nux",
       "websiteURL": "https://hynux.com",
       "email" : "powerdeng@hynux.com",
       "platforms":
@@ -19,7 +19,7 @@
           "size": "4354050",
           "boards": [
             {
-              "name": "Hanyoung ITTH"
+              "name": "Hanyoung ITTH 17D"
             }
           ],
           "toolsDependencies":
@@ -30,9 +30,9 @@
               "version": "7-2017q4"
             },
             {
-              "packager": "arduino",
+              "packager": "hanyoung",
               "name": "bossac",
-              "version": "1.8.0-48-gb176eee"
+              "version": "1.1.0-arduino"
             },
             {
               "packager": "arduino",
@@ -51,7 +51,23 @@
             }
           ]
         }
-      ]
+      ],
+	  "tools":
+	  [
+		{
+			"name": "bossac",
+			"version": "1.1.0-arduino",
+			"systems":[
+			{
+				"host": "i686-mingw32",
+				"url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino1/blob/main/boards/bossac-1.1.0-arduino-i686-mingw32.zip?raw=true",
+				"archiveFileName": "bossac-1.1.0-arduino-i686-mingw32.zip",
+				"checksum": "SHA-256:a9ceb62c90dd7221d6a9e07c3e62b555624b6b70f4b256fdaa6c316aed34131e",
+				"size": "775118"
+			}
+		  ]
+		}
+	  ]
     }
   ]
 }
