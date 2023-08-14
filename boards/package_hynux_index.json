@@ -47,7 +47,7 @@
             {
               "packager": "hanyoung",
               "name": "CMSIS-Atmel",
-              "version": "1.2.0"
+              "version": "1.1.0"
             }
           ]
         }
@@ -69,13 +69,13 @@
 		},
 		{
           "name": "CMSIS-Atmel",
-          "version": "1.2.0",
+          "version": "1.1.0",
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
-              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
-              "checksum": "SHA-256:52d9d953e56c0588aa9720f0c4aaa52a4c95347542d16f35e09054f8feae777e",
+              "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino1/blob/main/boards/CMSIS-Atmel-1.1.0.zip?raw=true",
+              "archiveFileName": "CMSIS-Atmel-1.1.0.zip",
+              "checksum": "SHA-256:fea00bf16b9f85e98de5d2bb2da1ee8ec2202ab179b1e77d7f6d8e0a8f2ee41f",
               "size": "5684751"
             }
 		  ]

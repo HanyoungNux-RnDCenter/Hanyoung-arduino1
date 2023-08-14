@@ -70,7 +70,7 @@ compiler.S.extra_flags=
 compiler.ar.extra_flags=
 compiler.elf2hex.extra_flags=
 
-compiler.arm.cmsis.c.flags="-I{runtime.tools.CMSIS-4.5.0.path}/CMSIS/Include/" "-I{runtime.tools.CMSIS-Atmel-1.2.0.path}/CMSIS/Device/ATMEL/"
+compiler.arm.cmsis.c.flags="-I{runtime.tools.CMSIS-4.5.0.path}/CMSIS/Include/" "-I{runtime.tools.CMSIS-Atmel-1.1.0.path}/CMSIS/Device/ATMEL/"
 compiler.arm.cmsis.ldflags="-L{runtime.tools.CMSIS-4.5.0.path}/CMSIS/Lib/GCC/" -larm_cortexM0l_math
 
 compiler.libraries.ldflags=
@@ -164,7 +164,7 @@ tools.avrdude.upload.network_pattern="{network_cmd}" -address {serial.port} -por
 #
 # BOSSA
 #
-tools.bossac.path={runtime.tools.bossac-1.7.0-arduino3.path}
+tools.bossac.path={runtime.tools.bossac-1.1.0-arduino.path}
 tools.bossac.cmd=bossac
 tools.bossac.cmd.windows=bossac.exe
 
