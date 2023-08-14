@@ -15,7 +15,7 @@
           "category": "Contributed",
           "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino1/blob/main/boards/ITTH_17D.zip?raw=true",
           "archiveFileName": "ITTH_17D.zip",
-          "checksum": "SHA-256:4b9d5cae8cc48d0280d7b946e1e74f86d7378f274c77d202fd7f6a0f4e6ae55e",
+          "checksum": "SHA-256:2ca16df8d21663b403fd08908b2c10207e38f2d2a5be80266831961428fc3ecb",
           "size": "4354050",
           "boards": [
             {
@@ -75,7 +75,7 @@
               "host": "i686-mingw32",
               "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino1/blob/main/boards/CMSIS-Atmel-1.1.0.zip?raw=true",
               "archiveFileName": "CMSIS-Atmel-1.1.0.zip",
-              "checksum": "SHA-256:fea00bf16b9f85e98de5d2bb2da1ee8ec2202ab179b1e77d7f6d8e0a8f2ee41f",
+              "checksum": "SHA-256:3f6b5ec5b7ea45f26d86c5929f02364ac86cf5ea07ed88538b8c7b60a54a0362",
               "size": "5684751"
             }
 		  ]
