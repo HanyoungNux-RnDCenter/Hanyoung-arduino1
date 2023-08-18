@@ -13,10 +13,10 @@
           "architecture": "samd",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino1/blob/main/boards/ITTH_17D.zip?raw=true",
-          "archiveFileName": "ITTH_17D.zip",
-          "checksum": "SHA-256:2ca16df8d21663b403fd08908b2c10207e38f2d2a5be80266831961428fc3ecb",
-          "size": "4353862",
+          "url": "https://github.com/HanyoungNux-RnDCenter/Hanyoung-arduino1/blob/main/boards/ITTH.zip?raw=true",
+          "archiveFileName": "ITTH.zip",
+          "checksum": "SHA-256:431298250e6ada3272e130566e0eee2757247045d4e5c412ebc104e020b90c17",
+          "size": "4350618",
           "boards": [
             {
               "name": "Hanyoung ITTH 17D"
