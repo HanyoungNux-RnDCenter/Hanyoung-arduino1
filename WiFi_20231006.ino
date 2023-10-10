@@ -246,19 +246,8 @@ DHT dht22 = DHT(DHTPIN, DHTYPE);
 
 void ShowUsrConf(void)
 {
-  unsigned char i;
-  Serial.printf("\taAeName      : %s\n", stUsr.stFlash.aAeName);
-  Serial.printf("\taCseId       : %s\n", stUsr.stFlash.aCseId);
-  Serial.printf("\taCbName      : %s\n", stUsr.stFlash.aCbName);
-  Serial.printf("\taBrokerIp    : %s\n", stUsr.stFlash.aBrokerIp);
-  Serial.printf("\tusBrokerPort : %d\n", stUsr.stFlash.usBrokerPort);
-  for(i=0; i<NetWorkCnt; i++) {
-    Serial.printf("\taSsid[%d]     : %s\n", i, stUsr.stFlash.astNet[i].aSsid);
-    Serial.printf("\taPass[%d]     : %s\n", i, stUsr.stFlash.astNet[i].aPass);
-  }
 	if(stUsr.stFlash.usBrokerPort == 1883) {
 #if _DEBUG_
-    /*
 		unsigned char i;
     
 		Serial.printf("\taAeName      : %s\n", stUsr.stFlash.aAeName);
@@ -270,7 +259,6 @@ void ShowUsrConf(void)
 			Serial.printf("\taSsid[%d]     : %s\n", i, stUsr.stFlash.astNet[i].aSsid);
 			Serial.printf("\taPass[%d]     : %s\n", i, stUsr.stFlash.astNet[i].aPass);
 		}
-    */
 #endif
 #if (Use_SH1106G | Use_SSD1306)
 		display.clearDisplay();
